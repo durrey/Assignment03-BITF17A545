@@ -9,15 +9,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="383dp"
-        android:layout_height="125dp"
+        android:layout_width="344dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="88dp"
         android:background="#2196F3"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.135" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup
         android:id="@+id/rg"
@@ -62,8 +62,9 @@
         android:id="@+id/next"
         android:layout_width="210dp"
         android:layout_height="72dp"
-        android:text="Next"
-        android:textSize="30sp"
+        android:text="go to next"
+        android:textSize="20sp"
+        app:backgroundTint="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -72,12 +73,12 @@
         app:layout_constraintVertical_bias="0.804" />
 
     <Button
-        android:id="@+id/finish"
+        android:id="@+id/Close"
         android:layout_width="210dp"
         android:layout_height="72dp"
-        android:text="Finish"
-        android:textSize="30sp"
-        app:backgroundTint="#E81414"
+        android:text="Close"
+        android:textSize="20sp"
+        app:backgroundTint="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
